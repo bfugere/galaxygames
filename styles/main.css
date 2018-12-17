@@ -27,3 +27,15 @@ main {
 .site-wrapper {
     height: 900px;
 }
+
+.card, .list-group-item {
+    background-color: rgba(0, 0, 0, 0.712)
+}
+
+.parallax {
+    background-image: url('pictures/dark_souls_dark_.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 730px;
+}
