@@ -25,11 +25,11 @@ main {
 }
 
 .site-wrapper {
-    height: 900px;
+    height: 1080px;
 }
 
 .card, .list-group-item {
-    background-color: rgba(0, 0, 0, 0.712)
+    background-color: rgba(0, 0, 0, 0.712);
 }
 
 .parallax {
@@ -37,20 +37,22 @@ main {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 730px;
+    height: 500px;
 }
 
 .crimson {
     color: crimson;
 }
 
-@media only screen and (max-device-width:320px) {
+@media only screen and (max-device-width: 320px) {
     .site-wrapper {
         height: 200px;
     }
+
     .col-md-4 {
-        margin: 5% 0%;
+        margin: 5% 0%;;
     }
+
     .carousel-control-next, .carousel-control-prev {
         display: none;
     }
